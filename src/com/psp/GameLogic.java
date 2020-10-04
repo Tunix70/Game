@@ -45,7 +45,7 @@ public class GameLogic {
 
     }
 
-    public void winner(Figure a, Figure b) { // сделал с объектами, я не понял, как сюда поля воткнуть
+    public void winner(Figure a, Figure b) {
         if ((a.equals(Figure.STONE) || b.equals(Figure.STONE))
                 && (a.equals(Figure.PAPER) || b.equals(Figure.PAPER))
                 && (a.equals(Figure.CSISSORS) || b.equals(Figure.CSISSORS))) {
